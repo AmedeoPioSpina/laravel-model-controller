@@ -1,1 +1,19 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+main{
+    text-align: center;
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        border: 2px solid black;
+        margin: 0 10rem;
+        padding: 1rem 1rem 0 1rem;
+        gap: 1rem;
+        li{
+            border: 2px solid black;
+            margin-bottom: 1rem;
+        }
+    }
+}
